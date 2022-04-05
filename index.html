@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~..css/style.min.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand header__logo" href="#">
+            <img class="header__logo-img" src="img/logo.svg" alt="Logo" />
+          </a>
+          <button
+            class="navbar-toggler header__nav-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z"
+                />
+              </svg>
+            </span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item header__nav-item">
+                <a class="nav-link header__nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item header__nav-item">
+                <a class="nav-link header__nav-link" href="#">Shop</a>
+              </li>
+              <li class="nav-item header__nav-item">
+                <a class="nav-link header__nav-link" href="#">Brands</a>
+              </li>
+              <li class="nav-item header__nav-item">
+                <a class="nav-link header__nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item header__nav-item">
+                <a class="nav-link header__nav-link" href="#">Contacts</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="banner overlay">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h2 class="banner__title">Spring / Summer Collection</h2>
+              <p class="banner__info">UP TO 60% DISCOUNT ON NEW ARRIVALS</p>
+              <p class="banner__info-secondary">
+                TRENDING NEW ITEMS,FROM CREATORS AROUND THE WORLD
+              </p>
+              <a href="#" class="btn banner__btn"></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cat text-center">
+        <div class="container">
+          <h2 class="section-title">Categories</h2>
+          <div class="row">
+            <div class="col-12 col-md-4">
+              <div class="cat__item cat__item--men overlay mb-4">
+                <h3 class="cat__item-title">
+                  <a class="cat__link" href="#">Men</a>
+                </h3>
+              </div>
+            </div>
+            <div class="col-12 col-md-4">
+              <div class="cat__item cat__item--women overlay mb-4">
+                <h3 class="cat__item-title">
+                  <a class="cat__link" href="#">Women</a>
+                </h3>
+              </div>
+            </div>
+            <div class="col-12 col-md-4">
+              <div class="cat__item cat__item--accessories overlay mb-4">
+                <h3 class="cat__item-title">
+                  <a class="cat__link" href="#">Accessories</a>
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="blog">
+        <div class="container">
+          <h2 class="section-title text-center">From the Blog</h2>
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <div class="blog__item mb-4">
+                <img class="blog__item-img" src="img/blog-img.jpg" alt="blog" />
+
+                <h3 class="blog__item-title">GERMAN FASHION WIZARDS</h3>
+                <p class="blog__item-details">
+                  By James Steed <span>|</span> Fashion
+                </p>
+                <p class="blog__item-leed">
+                  This week we had the chance of interviewing two creative
+                  artists from Germany. These guys are simply amazing at what
+                  they do with the European fashion scene and this year at Paris
+                  Fashion Week they introduced their new collection.
+                </p>
+                <a href="#" class="blog__item-link">read More</a>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="blog__item">
+                <img class="blog__item-img" src="img/blog-img.jpg" alt="blog" />
+                <h3 class="blog__item-title">GERMAN FASHION WIZARDS</h3>
+                <p class="blog__item-details">
+                  By James Steed <span>|</span> Fashion
+                </p>
+                <p class="blog__item-leed">
+                  This week we had the chance of interviewing two creative
+                  artists from Germany. These guys are simply amazing at what
+                  they do with the European fashion scene and this year at Paris
+                  Fashion Week they introduced their new collection.
+                </p>
+                <a href="#" class="blog__item-link">read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer overlay">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <p class="footer__info">Copyright Brandly. 2020</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
