@@ -1,0 +1,35 @@
+@import "vars";
+
+.section-title {
+  position: relative;
+  margin: 0 0 60px 0;
+  padding: 28px 0 29px;
+  font-family: $secondary-font;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 40px;
+  text-transform: capitalize;
+
+  &::before {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 115px;
+    height: 3px;
+    background-color: $accent;
+    content: "";
+  }
+
+  &::after {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 115px;
+    height: 3px;
+    background-color: $accent;
+    content: "";
+  }
+}
