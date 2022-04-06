@@ -1,0 +1,44 @@
+@import "vars";
+
+.cat {
+  padding: 60px 0;
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 419px;
+    background-image: url("../img/cat-men.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    &--women {
+      background-image: url("../img/cat-women.jpg");
+    }
+
+    &--accessories {
+      background-image: url("../img/cat-accessories.jpg");
+    }
+  }
+
+  &__title {
+    margin: 0;
+  }
+
+  &__link {
+    font-family: $secondary-font;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 40px;
+    text-transform: capitalize;
+    color: $light;
+    text-decoration: none;
+
+    &:hover {
+      color: $accent;
+    }
+  }
+}
